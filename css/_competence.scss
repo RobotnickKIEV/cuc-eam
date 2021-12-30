@@ -41,6 +41,12 @@
           font-size: 25px;
         }
       }
+      .little-size{
+        font-size: 35px;
+        @media(max-width: 1040px){
+          display: none;
+        }
+      }
       .title__text-content {
         position: relative;
         background: #fff;
