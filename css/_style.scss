@@ -96,7 +96,13 @@
           left: -1000px;
           margin: 80px 20px 0 45px;
           transition: 0.3s ease-out;
+          h3{
+            width: max-content ;
+            padding: 0 0 20px 0;
+            border-bottom: 1px solid #3598ff;
+          }
           .line {
+            display: none;
             width: 260px;
             height: 1px;
             background: #3598ff;
