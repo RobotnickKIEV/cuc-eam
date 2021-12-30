@@ -1,0 +1,30 @@
+.members-main {
+  h3 {
+    color: #555555;
+    font-size: 36px;
+  }
+  .flex-list {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    li {
+      flex: 30% 0 1;
+      a {
+        color: #555555;
+        font-size: 32px;
+        img {
+          width: 100%;
+        }
+      }
+      &.glory-bg{
+        background: rgb(221, 221, 221);
+      }
+    }
+    @media (max-width: 650px) {
+      flex-direction: column;
+    }
+  }
+}

@@ -1,0 +1,50 @@
+.news__about-main{
+     .title-text{
+         h3{
+             font-size: 33px;
+         }
+        .cub-text{
+            display: flex;
+            padding: 20px 0 30px;
+            font-size: 14px;
+            .date{
+                color:#555;
+            }
+            .technology__elem,
+            .services__elem{
+                color: #0058B5;
+                margin: 0 0 0 35px;
+            }
+        }
+    }
+    .title-image{
+        max-width: 1400px;
+        margin: 0 auto;
+        height: 600px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        &.image-1{
+            background-image: url('../img/news-image-1.jpeg');
+        }
+        &.image-2{
+            background-image: url('../img/news-image-2.jpg');
+        }
+        &.image-3{
+            background-image: url('../img/photo5357208383448528651.jpg');
+        }
+        &.image-3-1 {
+            background-image: url('../img/photo5357208383448528650.jpg');;
+        }
+        &.image-4 {
+            background-image: url('../img/photo5357208383448528657.jpg');
+            max-width: 1200px;
+            background-position: 0 -300px;
+        }
+    }
+    .text-content{
+        p{
+            color: #555;
+            line-height: 30px;
+        }
+    }
+}
