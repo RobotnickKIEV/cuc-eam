@@ -41,6 +41,11 @@
             max-width: 1200px;
             background-position: 0 -300px;
         }
+        &.image-4-1{
+            background-image: url('../img/doc.jpg');
+            background-position: center;
+            background-size: contain;
+        }
     }
     .text-content{
         p{
