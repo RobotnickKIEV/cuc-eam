@@ -42,7 +42,7 @@
     <main class="main">
         <section class="competence" id="competence">
             <div class="_container">
-                <h3>OUR COMPETENCE</h3>
+                <h3>Competence of cluster members</h3>
                 <div class="competence__flex-wrapper">
                     <div class="competence__item _item-1">
                         <span class="competence__title">Innovative solutions for disinfection and sterilization (COVID-19)</span>
@@ -95,7 +95,7 @@
         </section>
         <section class="last-news">
             <div class="_container">    
-                <h3>LAST NEWS</h3>
+                <h3>Last news</h3>
                 <div class="news__flex-wrapper">
                     <div class="block-news">
                         <a href="ENnews-4.html" class="image"><img src="img/photo5357208383448528657.jpg" style="margin: -100px 0;" alt=""></a>
@@ -145,8 +145,16 @@
                 <h2>Feedback</h2>
                 <form action="#" class="form">
                     <div class="feedback__flex-wrapper">
+                        
+                        <input type="hidden" name="admin_email[]" value="podgursky.roma@gmail.com">
+                    <input type="hidden" name="form_subject" value="Тема письма">
+
+                    <div class="feedback__flex-wrapper">
+
                         <input type="text" placeholder="Your name">
-                        <input type="email" placeholder="Email">    
+                        <input type="email" placeholder="Email">   
+                        <textarea name="comment" class="comment" id="comment" placeholder="Коментар"></textarea>
+                    </div>  
                         <textarea name="comment" class="comment" id="comment" placeholder="Comment"></textarea>
                     </div>
                     <a href="#" class="feedback__btn _btn">Send</a>
