@@ -190,6 +190,10 @@ h3 {
     font-size: 14px;
     .footer__flex-wrapper {
       flex-direction: column;
+      gap: 30px;
+      .flex-block > img{
+          max-width: 300px;
+      }
     }
   }
 }
