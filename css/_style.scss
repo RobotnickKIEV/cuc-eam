@@ -198,10 +198,22 @@
       gap: 50px;
       .partners__flex-wrapper {
         display: flex;
-        flex-wrap: wrap;
+        flex-wrap: wrap;  
         margin: 40px 0 0 0;
         gap: 50px;
         justify-content: center;
+        a{
+          display: flex;
+          flex: 30% 0 1;
+          justify-content: center;
+          align-items: center;
+          img{
+            width: 100%;
+            &.academ-image{
+              max-width: 250px;
+            }
+          }
+        }
         .big-text-block{
           font-size: 35px;
         }
