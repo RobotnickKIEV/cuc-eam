@@ -23,6 +23,9 @@
         height: 600px;
         background-repeat: no-repeat;
         background-size: cover;
+        @media(max-width: 450px){
+            height: 400px;
+        }
         &.image-1{
             background-image: url('../img/news-image-1.jpeg');
         }
@@ -39,7 +42,8 @@
         &.image-4 {
             background-image: url('../img/photo5357208383448528657.jpg');
             max-width: 1200px;
-            background-position: 0 -300px;
+            background-position: center;
+            background-size: contain;
         }
         &.image-4-1{
             background-image: url('../img/doc.jpg');

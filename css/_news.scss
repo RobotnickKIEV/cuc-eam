@@ -26,11 +26,18 @@
         .img {
           overflow: hidden;
           height: 230px;
-          background: #797979;
           img {
             width: 100%;
             &.news-4-img{
              margin: -100px 0;
+             @media(max-width: 400px){
+               margin: 0;
+             }
+            }
+            &.news-3-img{
+              @media(max-width: 400px){
+                height: 100%;
+              }
             }
           }
         }
