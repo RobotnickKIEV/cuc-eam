@@ -13,6 +13,7 @@ wrapper.addEventListener('click', func);
 
 
 
+
 let validateForms = function(selector, rules, successModal, yaGoal) {
 	new window.JustValidate(selector, {
 		rules: rules,
