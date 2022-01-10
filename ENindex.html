@@ -34,7 +34,7 @@
             </div>
         </div>
         <div class="header__content">
-            <video src="img/main-bg-2.mp4" autoplay muted loop></video>
+            <video src="img/20211229eng.mp4" autoplay muted loop></video>
             <h1>Central Ukrainian Cluster <br>
                 EAM</h1>
         </div>
@@ -145,20 +145,17 @@
             <div class="_container">
                 <h2>Feedback</h2>
                 <form action="#" class="form">
-                    <div class="feedback__flex-wrapper">
-                        
-                        <input type="hidden" name="admin_email[]" value="podgursky.roma@gmail.com">
+
+                    <input type="hidden" name="admin_email[]" value="podgursky.roma@gmail.com">
                     <input type="hidden" name="form_subject" value="Тема письма">
 
                     <div class="feedback__flex-wrapper">
 
-                        <input type="text" placeholder="Your name">
-                        <input type="email" placeholder="Email">   
+                        <input type="text" class="text" name="name"  placeholder="Your name">
+                        <input type="email" data-validate-field="email" name="email"  placeholder="Email">   
                         <textarea name="comment" class="comment" id="comment" placeholder="Коментар"></textarea>
                     </div>  
-                        <textarea name="comment" class="comment" id="comment" placeholder="Comment"></textarea>
-                    </div>
-                    <a href="#" class="feedback__btn _btn">Send</a>
+                    <button class="submit-index feedback__btn _btn" >Send</button>
                 </form>
             </div>
         </section>
@@ -197,6 +194,7 @@
     </footer>
 
     <script src="js/inputmask.min.js"></script>
+    <script src="js/just-validate.min.js"></script>
     <script src="js/script.js"></script>
     <script src="js/main.js"></script>
 </body>
